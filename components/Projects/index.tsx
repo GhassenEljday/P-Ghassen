@@ -1,5 +1,7 @@
-import React from "react";
+import type { FC } from "react";
 
-export default function index() {
+const Projects: FC = () => {
   return <div></div>;
-}
+};
+
+export default Projects;
