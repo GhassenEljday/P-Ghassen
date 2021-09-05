@@ -4,3 +4,8 @@
   --default-color: #ffffff;
   --text-color: #000000;
 }
+
+::selection {
+  color: var(--default-color);
+  background: var(--primary-color);
+}
