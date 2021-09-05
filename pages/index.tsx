@@ -6,7 +6,7 @@ import Info from "../components/Info";
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
       <Head>
         <title>Eljday</title>
         <meta name="Eljday" content="Ghassen Eljday's portfolio" />
@@ -15,7 +15,7 @@ const Home: NextPage = () => {
 
       <Lnading />
       <Info />
-    </div>
+    </section>
   );
 };
 

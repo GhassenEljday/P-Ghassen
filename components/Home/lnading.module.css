@@ -44,7 +44,7 @@
   .image {
     margin-top: 2rem;
     height: auto;
-    max-width: 20rem;
+    max-width: 15rem;
   }
 
   #laptopImg {
@@ -58,6 +58,16 @@
 
   #personalProfile {
     font-size: 1rem;
+    width: 100%;
+  }
+
+  .landingContainer {
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, 100%);
+  }
+
+  .info {
+    width: 100%;
   }
 }
 
