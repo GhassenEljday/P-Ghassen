@@ -1,0 +1,111 @@
+.infoContainer {
+  height: 100vh;
+  width: 80%;
+}
+
+.infoContent {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  justify-content: center;
+  align-items: center;
+  margin-top: 7rem;
+}
+
+.doing {
+  text-align: center;
+}
+
+.image {
+  height: auto;
+  max-width: 40rem;
+  margin: 0 auto;
+  filter: drop-shadow(6px 15px 28px rgba(0, 0, 0, 0.25));
+}
+
+#laptopImg {
+  max-width: 100%;
+  height: auto;
+}
+
+.info {
+  display: grid;
+  grid-template-rows: auto auto;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  margin: 0 auto;
+}
+
+#welcoming {
+  font-size: 3rem;
+  text-align: center;
+}
+
+#personalProfile {
+  font-size: 1.2rem;
+  color: #000000;
+  opacity: 60%;
+  margin-left: 0.8rem;
+}
+
+#icon {
+  width: 60px;
+}
+
+.toolIcon {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr));
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  margin: 0.6rem auto;
+  max-width: 5rem;
+}
+
+@media (max-width: 500px) {
+  .image {
+    height: auto;
+    max-width: 20rem;
+    margin: 0 auto;
+    filter: drop-shadow(6px 15px 28px rgba(0, 0, 0, 0.25));
+  }
+
+  #laptopImg {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #welcoming {
+    font-size: 2rem;
+  }
+
+  #personalProfile {
+    font-size: 1rem;
+  }
+
+  .toolIcon {
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+  }
+
+  .icon {
+    max-width: 4rem;
+    margin: 1rem;
+  }
+
+  .infoContent {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 1230px) {
+  .infoContainer {
+    margin-top: 2rem;
+  }
+
+  #personalProfile {
+    text-align: center;
+    margin-left: 0;
+  }
+}

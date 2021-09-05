@@ -1,0 +1,82 @@
+.landingContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 100vh;
+}
+
+.image {
+  height: auto;
+  max-width: 40rem;
+  margin: 0 auto;
+  filter: drop-shadow(6px 15px 28px rgba(0, 0, 0, 0.25));
+}
+
+#laptopImg {
+  max-width: 100%;
+  height: 100%;
+}
+
+.info {
+  display: grid;
+  grid-template-rows: auto auto;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  margin: 0 auto;
+}
+
+#welcoming {
+  font-size: 3rem;
+}
+
+#personalProfile {
+  font-size: 1.2rem;
+  color: #000000;
+  opacity: 60%;
+  /* margin-left: 0.8rem; */
+  margin: 0 auto;
+}
+
+@media (max-width: 500px) {
+  .image {
+    margin-top: 2rem;
+    height: auto;
+    max-width: 20rem;
+  }
+
+  #laptopImg {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #welcoming {
+    font-size: 2rem;
+  }
+
+  #personalProfile {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1230px) {
+  .image {
+    margin-top: 2rem;
+  }
+
+  .landingContainer {
+    height: auto;
+  }
+
+  #welcoming {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  #personalProfile {
+    text-align: center;
+    margin-left: 0;
+  }
+}
