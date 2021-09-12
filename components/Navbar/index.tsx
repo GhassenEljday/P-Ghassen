@@ -28,7 +28,7 @@ const Navbar: FC = () => {
       <nav className={sideBar ? styles.navMenuActive : styles.navMenu}>
         <ul className={styles.navMenuItems}>
           <li className={styles.navMenuItem} id={styles.contact}>
-            Contact Me
+            Find me on
           </li>
           <li className={styles.navMenuItem}>
             <a href="" className={styles.navMenuAn}>
