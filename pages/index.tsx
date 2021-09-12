@@ -12,7 +12,7 @@ const Home: NextPage = () => {
       <Head>
         <title>Eljday</title>
         <meta name="Eljday" content="Ghassen Eljday's portfolio" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/e.png" />
       </Head>
 
       <Navbar />
