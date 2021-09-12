@@ -22,7 +22,8 @@ const Info: FC = () => {
           <p id={styles.personalProfile}>
             I really love Front-End, Acquired organizational skills such as time
             management autonomous learning and problem-solving I have experience
-            with ES6+ Angular React Redux Vue Node Express MySQL and MongoDB.
+            with ES6+ React Redux Angular Vue Node Express Rest API MySQL and
+            MongoDB.
           </p>
           <div className={styles.toolIcon}>
             <img
@@ -48,6 +49,11 @@ const Info: FC = () => {
             <img
               className={styles.icon}
               src="./icons/icons8-json-96.png"
+              alt=""
+            />
+            <img
+              className={styles.icon}
+              src="./icons/icons8-api-100.png"
               alt=""
             />
             <img
@@ -103,11 +109,6 @@ const Info: FC = () => {
             <img
               className={styles.icon}
               src="./icons/icons8-figma-96.png"
-              alt=""
-            />
-            <img
-              className={styles.icon}
-              src="./icons/icons8-api-100.png"
               alt=""
             />
           </div>

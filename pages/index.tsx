@@ -3,6 +3,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Lnading from "../components/Home";
 import Info from "../components/Info";
+import Projects from "../components/Projects";
 
 const Home: NextPage = () => {
   return (
@@ -15,6 +16,7 @@ const Home: NextPage = () => {
 
       <Lnading />
       <Info />
+      <Projects />
     </section>
   );
 };
