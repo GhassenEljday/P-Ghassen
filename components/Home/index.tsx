@@ -4,7 +4,6 @@ import styles from "./lnading.module.css";
 const Lnading: FC = () => {
   return (
     <div className={styles.landingContainer}>
-      {/* info side */}
       <div className={styles.info}>
         <h1 id={styles.welcoming}>Hey There I’m Ghassen Eljday</h1>
         <p id={styles.personalProfile}>
@@ -17,7 +16,6 @@ const Lnading: FC = () => {
           soft and technical skills and discovering cutting-edge technologies.
         </p>
       </div>
-      {/* image side */}
       <div className={styles.image}>
         <img id={styles.laptopImg} src="./laptop_S.png" alt="Ghassen-laptop" />
       </div>
