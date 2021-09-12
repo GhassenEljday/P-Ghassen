@@ -1,5 +1,4 @@
 import type { FC } from "react";
-import Image from "next/image";
 import styles from "./projects.module.css";
 
 const Projects: FC = () => {
@@ -11,37 +10,37 @@ const Projects: FC = () => {
       <div className={styles.projects}>
         <div className={styles.projectCard}>
           <div className={styles.imageCadr}>
-            <Image className={styles.projectImage} src="./test.jpg" alt="" />
+            <img className={styles.projectImage} src="./test.jpg" alt="" />
           </div>
           <div className={styles.projectName}>Project Name</div>
         </div>
         <div className={styles.projectCard}>
           <div className={styles.imageCadr}>
-            <Image className={styles.projectImage} src="./test.jpg" alt="" />
+            <img className={styles.projectImage} src="./test.jpg" alt="" />
           </div>
           <div className={styles.projectName}>Project Name</div>
         </div>
         <div className={styles.projectCard}>
           <div className={styles.imageCadr}>
-            <Image className={styles.projectImage} src="./test.jpg" alt="" />
+            <img className={styles.projectImage} src="./test.jpg" alt="" />
           </div>
           <div className={styles.projectName}>Project Name</div>
         </div>
         <div className={styles.projectCard}>
           <div className={styles.imageCadr}>
-            <Image className={styles.projectImage} src="./test.jpg" alt="" />
+            <img className={styles.projectImage} src="./test.jpg" alt="" />
           </div>
           <div className={styles.projectName}>Project Name</div>
         </div>
         <div className={styles.projectCard}>
           <div className={styles.imageCadr}>
-            <Image className={styles.projectImage} src="./test.jpg" alt="" />
+            <img className={styles.projectImage} src="./test.jpg" alt="" />
           </div>
           <div className={styles.projectName}>Project Name</div>
         </div>
         <div className={styles.projectCard}>
           <div className={styles.imageCadr}>
-            <Image className={styles.projectImage} src="./test.jpg" alt="" />
+            <img className={styles.projectImage} src="./test.jpg" alt="" />
           </div>
           <div className={styles.projectName}>Project Name</div>
         </div>
