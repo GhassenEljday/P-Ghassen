@@ -10,7 +10,7 @@ const Home: NextPage = () => {
   return (
     <section>
       <Head>
-        <title>Eljday</title>
+        <title>Ghassen Eljday</title>
         <meta name="Eljday" content="Ghassen Eljday's portfolio" />
         <link rel="icon" href="/e.png" />
       </Head>
