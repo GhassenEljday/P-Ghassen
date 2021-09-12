@@ -1,4 +1,5 @@
 import type { FC } from "react";
+import Image from "next/image";
 import styles from "./lnading.module.css";
 
 const Lnading: FC = () => {
@@ -17,7 +18,11 @@ const Lnading: FC = () => {
         </p>
       </div>
       <div className={styles.image}>
-        <img id={styles.laptopImg} src="./laptop_S.png" alt="Ghassen-laptop" />
+        <Image
+          id={styles.laptopImg}
+          src="./laptop_S.png"
+          alt="Ghassen-laptop"
+        />
       </div>
     </div>
   );

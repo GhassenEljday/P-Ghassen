@@ -1,4 +1,5 @@
 import type { FC } from "react";
+import Image from "next/image";
 import styles from "./info.module.css";
 
 const Info: FC = () => {
@@ -10,7 +11,7 @@ const Info: FC = () => {
       <div className={styles.infoContent}>
         {/* image side */}
         <div className={styles.image}>
-          <img
+          <Image
             id={styles.laptopImg}
             src="./keyboard_S.png"
             alt="Ghassen-laptop"
@@ -26,87 +27,87 @@ const Info: FC = () => {
             MongoDB.
           </p>
           <div className={styles.toolIcon}>
-            <img
+            <Image
               className={styles.icon}
               src="./icons/icons8-javascript-96.png"
               alt=""
             />
-            <img
+            <Image
               className={styles.icon}
               src="./icons/icons8-html-5-96.png"
               alt=""
             />
-            <img
+            <Image
               className={styles.icon}
               src="./icons/icons8-css3-96.png"
               alt=""
             />
-            <img
+            <Image
               className={styles.icon}
               src="./icons/icons8-nodejs-96.png"
               alt=""
             />
-            <img
+            <Image
               className={styles.icon}
               src="./icons/icons8-json-96.png"
               alt=""
             />
-            <img
+            <Image
               className={styles.icon}
               src="./icons/icons8-api-100.png"
               alt=""
             />
-            <img
+            <Image
               className={styles.icon}
               src="./icons/icons8-react-100.png"
               alt=""
             />
-            <img
+            <Image
               className={styles.icon}
               src="./icons/icons8-redux-96.png"
               alt=""
             />
-            <img
+            <Image
               className={styles.icon}
               src="./icons/icons8-angularjs-96.png"
               alt=""
             />
-            <img
+            <Image
               className={styles.icon}
               src="./icons/icons8-vue-js-96.png"
               alt=""
             />
-            <img
+            <Image
               className={styles.icon}
               src="./icons/icons8-sql-96.png"
               alt=""
             />
-            <img
+            <Image
               className={styles.icon}
               src="./icons/icons8-mongodb-96.png"
               alt=""
             />
-            <img
+            <Image
               className={styles.icon}
               src="./icons/icons8-typescript-96.png"
               alt=""
             />
-            <img
+            <Image
               className={styles.icon}
               src="./icons/icons8-webpack-96.png"
               alt=""
             />
-            <img
+            <Image
               className={styles.icon}
               src="./icons/icons8-ubuntu-96.png"
               alt=""
             />
-            <img
+            <Image
               className={styles.icon}
               src="./icons/icons8-windows-10-96.png"
               alt=""
             />
-            <img
+            <Image
               className={styles.icon}
               src="./icons/icons8-figma-96.png"
               alt=""
