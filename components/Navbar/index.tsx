@@ -33,6 +33,7 @@ const Navbar: FC = () => {
           <li className={styles.navMenuItem}>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://github.com/ghasseneljday"
               className={styles.navMenuAn}
             >
@@ -43,6 +44,7 @@ const Navbar: FC = () => {
           <li className={styles.navMenuItem}>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.linkedin.com/in/ghasseneljday/"
               className={styles.navMenuAn}
             >
@@ -53,6 +55,7 @@ const Navbar: FC = () => {
           <li className={styles.navMenuItem}>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=ghasseneljday@gmail.com"
               className={styles.navMenuAn}
             >
