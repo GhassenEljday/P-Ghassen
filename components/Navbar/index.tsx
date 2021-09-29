@@ -31,19 +31,31 @@ const Navbar: FC = () => {
             Find me on
           </li>
           <li className={styles.navMenuItem}>
-            <a href="" className={styles.navMenuAn}>
+            <a
+              target="_blank"
+              href="https://github.com/ghasseneljday"
+              className={styles.navMenuAn}
+            >
               <AiIcon.AiFillGithub className={styles.navMenuIcon} />
               <p className={styles.navMenuText}>GitHub</p>
             </a>
           </li>
           <li className={styles.navMenuItem}>
-            <a href="" className={styles.navMenuAn}>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/ghasseneljday/"
+              className={styles.navMenuAn}
+            >
               <AiIcon.AiFillLinkedin className={styles.navMenuIcon} />
               <p className={styles.navMenuText}>LinkedIn</p>
             </a>
           </li>
           <li className={styles.navMenuItem}>
-            <a href="" className={styles.navMenuAn}>
+            <a
+              target="_blank"
+              href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=ghasseneljday@gmail.com"
+              className={styles.navMenuAn}
+            >
               <AiIcon.AiFillMail className={styles.navMenuIcon} />
               <p className={styles.navMenuText}>Email</p>
             </a>
